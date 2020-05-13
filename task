@@ -1,0 +1,11 @@
+variable task1:
+
+1. store filenames into two variables
+
+2. create files
+
+3. store directory name into a variable
+
+4. copy both files into this new directory
+
+==========================================
