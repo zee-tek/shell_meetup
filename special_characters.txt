@@ -1,0 +1,101 @@
+******************
+Special Characters
+==================
+
+. \n: option creates new line
+. \b use to remove one space back from where it is used
+
+. \t: horizontal tab
+
+.\v vertical tab
+
+.\a sound alert
+
+\r carriage return (cursor come first position, hello\rhi (hillo))
+
+\c suppress any further output
+
+\\ Escape meaning of special characters
+
+\ Escape meaning of special symbols which have some meaning to shell such as $,# etc
+NOTE: to utilize special charcters in print statements u need to use them either with
+      echo -e
+        OR
+      printf
+============================
+Special Chararcters In Action
++++++++++++++++++++++++++++++
+
+\n new line character 
+example:
+  
+INPUT:   echo -e "This is first line\nThis is second line"
+
+OUTPUT: 
+This is first line
+This is second line
+
+
+============================
+
+\b  remove space backward
+example:
+
+INPUT: echo -e "End of the line there is space \bhi"
+
+OUTPUT: End of the line there is spacehi
+
+===========================
+
+\t  horizontal tab
+example:
+
+INPUT: echo -e "Add tab after A\tB"
+OUTPUT: After add tab after A   B
+
+===========================
+
+\v vertical tab
+example:
+
+INPUT: echo -e "Add tab after A\vb"
+OUTPUT: Add tab after A
+               b
+
+===========================
+
+\r carriage return
+example:
+
+INPUT: echo -e "Hello\rhi"
+OUTPUT: hillo
+
+==========================
+
+\c suppress any further output
+example:
+
+INPUT: echo -e "I need only this sentence.\cthis sentence will be suppressed"
+OUTPUT: I need only this sentence.
+
+==========================
+
+\\ Escape
+example:
+
+INPUT: echo -e "hi\\\nbi"
+OUTPUT: hi\nbi
+
+=========================
+
+\
+example:
+
+INPUT: echo -e "The price of this bottle is \$5"
+OUTPUT: The price of this bottle is $5
+
+=========================
+
+
+END OF SPECIAL CHARACTERS
+*************************

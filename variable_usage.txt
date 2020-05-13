@@ -1,0 +1,42 @@
+***************
+Variables
+===============
+
+var=date
+
+echo $var
+========================
+
+Two type of variables:
+
+1. Sytem define varibles
+
+2. User define varibales
+  
+  - Global variables
+  - constant variables
+  - local variables
+
+=========================
+Variable Rules:
++++++++++++++++
+
+1. Dont insert any spaces around variable name
+ Invalid
+ var = value
+
+ Valid
+var=value
+
+2. u can use variable name by characters, numbers and underscores
+
+These all are valid.
+
+student=john
+student1=john
+stu_dent=john
+
+3 we can not start variable name by a number
+
+Invalid
+1student=john

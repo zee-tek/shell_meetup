@@ -1,0 +1,39 @@
+*********************************
+What are all these symbols for ?
+$1,$2
+$?
+$#
+$*
+$0
+$$
+================================
+comm
+$1 is used as first argument,$2 as second $3,$4 so on ......
+#mkdir $1
+#cp $1 $2
+
+#============================
+These two used when we don't know exact number of arguments can be provided or program ll take
+#touch "$@"
+#touch "$*"
+
+#============================
+
+This represent script name
+#echo $0
+
+#=============================
+
+This is process id of the script itself
+#echo $$
+
+#=============================
+
+This is give the count of arguments. It counts how many arguments are given
+#echo $#
+
+#=============================
+
+
+END OF ARGUMENTS
+****************
